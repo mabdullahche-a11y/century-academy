@@ -68,4 +68,3 @@ export function responsiveImage(name, cls, alt) {
       ${hero ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async" width="${athens ? 1280 : 954}" height="${athens ? 1000 : 1200}">
   </picture>`;
 }
-

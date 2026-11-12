@@ -22,4 +22,3 @@ export const pricing = {
     { title: 'Free first online trial', detail: 'Talk through your course, then try a lesson.', confirmed: true },
   ],
 };
-

@@ -172,4 +172,3 @@ if (finder) {
     result.focus();
   });
 }
-

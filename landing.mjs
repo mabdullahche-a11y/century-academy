@@ -97,4 +97,3 @@ export const faqSchema = {
   '@type': 'FAQPage',
   mainEntity: questions.map(([name, text]) => ({ '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } })),
 };
-

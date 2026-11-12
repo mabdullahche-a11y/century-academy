@@ -174,7 +174,6 @@ if (finder) {
 }
 
 
-
 const escapeHTML=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 
 const { courses, levelDefs } = document.body.dataset.course || document.querySelector('#enquiry-form')

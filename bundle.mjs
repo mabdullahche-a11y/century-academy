@@ -10,4 +10,3 @@ export async function bundle() {
     writeFile(new URL('./dist/site.js', import.meta.url), scripts.join('\n\n')),
   ]);
 }
-

@@ -8,4 +8,3 @@ Service website for online English tuition. The first action is to find a course
 - Replace undersized captions, labels and navigation with readable text. Keep the sticky navigation and trial bar clear of focused controls.
 - Keep the supplied section order. Use the painting and the experience figure as visual anchors, with restrained motion and a static reduced-motion presentation.
 - Use clearly labelled AED demonstration rates for the GCC preview. Confirmed contact and incentive content comes from the brief.
-

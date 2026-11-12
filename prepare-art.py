@@ -43,5 +43,3 @@ def export(item):
 
 with ThreadPoolExecutor() as pool:
     list(pool.map(export, art.items()))
-
-
