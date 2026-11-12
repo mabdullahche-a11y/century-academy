@@ -1,0 +1,7 @@
+.taste-skill/
+qa/tools/node_modules/
+qa/after/
+qa/before/
+qa/*-report.json
+qa/lighthouse-*.json
+qa/taste-gate.log
