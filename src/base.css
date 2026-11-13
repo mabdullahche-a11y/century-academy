@@ -438,40 +438,38 @@ figcaption a {
   font-size:25px;
   color:#77825c
 }
-.qualification-card>p {
-  font-family:var(--serif);
-  font-size:22px;
-  line-height:1.35;
-  min-height:62px;
-  color:#5d6d50
-}
-.subject-links {
-  margin-top:22px
-}
 .subject-link {
   border-top:1px solid var(--line);
-  padding:19px 0;
+  padding:16px 0;
   display:flex;
   justify-content:space-between;
   gap:12px;
   align-items:center
 }
 .subject-link strong {
-  font-size:14px;
-  font-weight:550;
+  font-size:18px;
+  font-weight:650;
   display:block
 }
 .subject-link small {
-  font-size:11px;
+  font-size:15px;
   display:block;
   color:var(--muted);
-  margin-top:3px
+  margin-top:4px
+}
+.subject-link b {
+  color:var(--ink);
+  white-space:nowrap
 }
 .subject-link>span:last-child {
   font-size:23px;
   color:#7d8768
 }
-.subject-link:hover strong,.qualification-title:hover h3 {
+.subject-link:hover strong {
+  text-decoration:underline;
+  text-underline-offset:3px
+}
+.qualification-title:hover h3 {
   color:#788753
 }
 .small-link {
@@ -1398,15 +1396,6 @@ summary::-webkit-details-marker {
 .qualification-title h3 {
   font-size:35px
 }
-.qualification-card>p {
-  font-size:21px
-}
-.subject-link strong {
-  font-size:13px
-}
-.subject-link small {
-  font-size:11px
-}
 .philosophy-grid {
   gap:65px
 }
@@ -1549,6 +1538,7 @@ h2 {
   font-size:13px
 }
 .qualification-grid {
+  grid-template-columns:1fr;
   gap:15px
 }
 .qualification-card {
@@ -1567,16 +1557,6 @@ h2 {
 }
 .qualification-title h3 {
   font-size:32px
-}
-.qualification-card>p {
-  font-size:19px;
-  min-height:78px
-}
-.subject-link strong {
-  font-size:12px
-}
-.subject-link small {
-  font-size:11px
 }
 .subject-link {
   gap:7px
@@ -1862,7 +1842,6 @@ h2 {
   font-size:14px
 }
 .qualification-grid {
-  grid-template-columns:1fr;
   gap:23px
 }
 .qualification-card {
@@ -1880,20 +1859,6 @@ h2 {
 }
 .qualification-title {
   margin-top:22px
-}
-.qualification-card>p {
-  font-size:23px;
-  min-height:0;
-  max-width:270px
-}
-.subject-link {
-  padding:17px 0
-}
-.subject-link strong {
-  font-size:15px
-}
-.subject-link small {
-  font-size:11px
 }
 .subject-link>span:last-child {
   font-size:25px

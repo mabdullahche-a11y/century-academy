@@ -25,10 +25,9 @@ figcaption, .gallery-label>span, .hero-bottom, .paper-id,
 .example span, .learning-list article>span, .small-note {
   color: var(--muted);
 }
-h1 em, h2 em, .qualification-card>p, .lead { color: var(--muted); }
+h1 em, h2 em, .lead { color: var(--muted); }
 .hero h1 em, .course-hero h1 em, .insight-band h2 em { color: var(--gold); }
-.hero-intro, .hero-sub, .section-description, .facts small, .subject-link small,
-.course-note, .qualification-card .small-link, .course-jumps, .breadcrumbs,
+.hero-intro, .hero-sub, .section-description, .facts small, .course-jumps, .breadcrumbs,
 .sidebar-box dl>div, .paper-table td, .paper-table th, .assessment-context strong,
 .paper-details summary small, .assessment-controls label, .enquiry-form label,
 .footer-bottom, .footer-disclosure, .experience-panel p, .conversation p:not(.eyebrow),
@@ -78,6 +77,8 @@ a:hover>span[aria-hidden="true"] { transform: translate(3px,-3px); }
 .underlink:hover { text-decoration: underline; text-underline-offset: 4px; }
 .qualification-card::before { transition: transform var(--hover-time) var(--ease); }
 .qualification-card:hover::before { transform: translateY(-2px); }
+.qualification-card .small-link, .course-note { font-size: 15px; }
+.course-note { text-align: left; }
 .subject-card:hover { background: var(--paper); }
 
 /* Paintings and first screen */
